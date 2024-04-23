@@ -1,0 +1,17 @@
+{
+  "name": "ViS3Editor",
+  "version": "1.0.0",
+  "description": "edit s3 files directly in cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ViS3Editor": "./src/index.js"
+  },
+  "author": "balaji banshetty",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1516.0"
+  }
+}
